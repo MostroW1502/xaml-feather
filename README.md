@@ -21,7 +21,7 @@ Open up your "App.xaml" file and add these lines between the application resourc
 To use an icon you can refer to it as a "StaticResource" e.g.
 
 ```XML
-<Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="3" Margin="3">
+<Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="3" Margin="3">
   <Viewbox>
     <ContentControl Content="." ContentTemplate="{StaticResource File}"/>
   </Viewbox>
@@ -29,5 +29,6 @@ To use an icon you can refer to it as a "StaticResource" e.g.
 ```
 
 This would create a button with the File icon drawn unto it's surface.
+The icon should scale nicely thanks to the Viewbox control.
 
 Icons can be added programatically as well, check the example application code for usage!
