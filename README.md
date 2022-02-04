@@ -21,8 +21,10 @@ Open up your "App.xaml" file and add these lines between the application resourc
 To use an icon you can refer to it as a "StaticResource" e.g.
 
 ```XML
-<Button Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="3" Margin="3">
-  <ContentControl Content="{StaticResource File}"/>
+<Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="3" Margin="3">
+  <Viewbox>
+    <ContentControl Content="." ContentTemplate="{StaticResource File}"/>
+  </Viewbox>
 </Button>
 ```
 
