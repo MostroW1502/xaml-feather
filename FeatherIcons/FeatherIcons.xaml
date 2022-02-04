@@ -914,14 +914,6 @@
             </Canvas>
         </Viewbox>
     </DataTemplate>
-    <DataTemplate x:Key="FileIcon">
-        <Viewbox Stretch="Uniform">
-            <Canvas Width="24" Height="24" >
-                <Path StrokeThickness="2" Stroke="Black" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
-                <Polyline Points="13 2 13 9 20 9" FillRule="NonZero" StrokeThickness="2" Stroke="Black" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
-            </Canvas>
-        </Viewbox>
-    </DataTemplate>
     <DataTemplate x:Key="FileMinus">
         <Viewbox Stretch="Uniform">
             <Canvas Width="24" Height="24">
