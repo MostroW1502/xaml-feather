@@ -10,17 +10,21 @@ Copy the FeatherIcons.xaml file to your project by including it as an existing i
 
 Open up your "App.xaml" file and add these lines between the application resources tags.
 
+```
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
     <ResourceDictionary Source="pack://application:,,,/Resources/FeatherIcons.xaml"/>
   </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
+```
 
 To use an icon you can refer to it as a "StaticResource" e.g.
 
+```
 <Button Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="3" Margin="3">
   <ContentControl Content="{StaticResource File}"/>
 </Button>
+```
 
 This would create a button with the File icon drawn unto it's surface.
 
