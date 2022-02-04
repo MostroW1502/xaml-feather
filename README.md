@@ -13,7 +13,7 @@ Open up your "App.xaml" file and add these lines between the application resourc
 ```XML
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
-    <ResourceDictionary Source="pack://application:,,,/Resources/FeatherIcons.xaml"/>
+    <ResourceDictionary Source="pack://application:,,,/FeatherIcons.xaml"/>
   </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
 ```
